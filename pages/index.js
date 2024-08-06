@@ -401,7 +401,7 @@ export default function Home() {
                   data-category="web development"
                 >
                   <a href="#">
-                    <figure className="project-Image">
+                    <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
@@ -409,8 +409,6 @@ export default function Home() {
                         src="./assets/images/project-1.jpg"
                         alt="finance"
                         loading="lazy"
-                        width={40}
-                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">Finance</h3>
@@ -423,7 +421,7 @@ export default function Home() {
                   data-category="web development"
                 >
                   <a href="#">
-                    <figure className="project-Image">
+                    <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
@@ -431,8 +429,6 @@ export default function Home() {
                         src="./assets/images/project-2.png"
                         alt="orizon"
                         loading="lazy"
-                        width={40}
-                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">Orizon</h3>
@@ -445,7 +441,7 @@ export default function Home() {
                   data-category="web design"
                 >
                   <a href="#">
-                    <figure className="project-Image">
+                    <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
@@ -453,8 +449,6 @@ export default function Home() {
                         src="./assets/images/project-3.jpg"
                         alt="fundo"
                         loading="lazy"
-                        width={40}
-                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">Fundo</h3>
@@ -467,7 +461,7 @@ export default function Home() {
                   data-category="applications"
                 >
                   <a href="#">
-                    <figure className="project-Image">
+                    <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
@@ -475,8 +469,6 @@ export default function Home() {
                         src="./assets/images/project-4.png"
                         alt="brawlhalla"
                         loading="lazy"
-                        width={40}
-                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">Brawlhalla</h3>
@@ -489,7 +481,7 @@ export default function Home() {
                   data-category="web design"
                 >
                   <a href="#">
-                    <figure className="project-Image">
+                    <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
@@ -497,8 +489,6 @@ export default function Home() {
                         src="./assets/images/project-5.png"
                         alt="dsm."
                         loading="lazy"
-                        width={40}
-                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">DSM.</h3>
@@ -511,7 +501,7 @@ export default function Home() {
                   data-category="web design"
                 >
                   <a href="#">
-                    <figure className="project-Image">
+                    <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
@@ -519,8 +509,6 @@ export default function Home() {
                         src="./assets/images/project-6.png"
                         alt="metaspark"
                         loading="lazy"
-                        width={40}
-                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">MetaSpark</h3>
@@ -533,7 +521,7 @@ export default function Home() {
                   data-category="web development"
                 >
                   <a href="#">
-                    <figure className="project-Image">
+                    <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
@@ -541,8 +529,6 @@ export default function Home() {
                         src="./assets/images/project-7.png"
                         alt="summary"
                         loading="lazy"
-                        width={250}
-                        height={200}
                       />
                     </figure>
                     <h3 className="project-title">Summary</h3>
@@ -555,7 +541,7 @@ export default function Home() {
                   data-category="applications"
                 >
                   <a href="#">
-                    <figure className="project-Image">
+                    <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
@@ -563,8 +549,6 @@ export default function Home() {
                         src="./assets/images/project-8.jpg"
                         alt="task manager"
                         loading="lazy"
-                        width={250}
-                        height={200}
                       />
                     </figure>
                     <h3 className="project-title">Task Manager</h3>
@@ -577,16 +561,14 @@ export default function Home() {
                   data-category="web development"
                 >
                   <a href="#">
-                    <figure className="project-Image">
+                    <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <Image
+                      <img
                         src="./assets/images/project-9.png"
                         alt="arrival"
                         loading="lazy"
-                        width={250}
-                        height={200}
                       />
                     </figure>
                     <h3 className="project-title">Arrival</h3>
