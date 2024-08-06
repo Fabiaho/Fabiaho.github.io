@@ -11,11 +11,10 @@ export default function Home() {
         <aside className="sidebar" data-sidebar="">
           <div className="sidebar-info">
             <figure className="avatar-box">
-              <Image
-                src="./assets/images/my-avatar.png"
+              <img
+                src="./assets/images/Flake.jpg"
                 alt="Nicolas Flake"
-                width={80}
-                height={140}
+                style={{ borderRadius: "15px" }}
               />
             </figure>
             <div className="info-content">
@@ -405,7 +404,7 @@ export default function Home() {
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <Image
+                      <img
                         src="./assets/images/project-1.jpg"
                         alt="finance"
                         loading="lazy"
@@ -425,7 +424,7 @@ export default function Home() {
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <Image
+                      <img
                         src="./assets/images/project-2.png"
                         alt="orizon"
                         loading="lazy"
@@ -445,7 +444,7 @@ export default function Home() {
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <Image
+                      <img
                         src="./assets/images/project-3.jpg"
                         alt="fundo"
                         loading="lazy"
@@ -465,7 +464,7 @@ export default function Home() {
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <Image
+                      <img
                         src="./assets/images/project-4.png"
                         alt="brawlhalla"
                         loading="lazy"
@@ -485,7 +484,7 @@ export default function Home() {
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <Image
+                      <img
                         src="./assets/images/project-5.png"
                         alt="dsm."
                         loading="lazy"
@@ -505,7 +504,7 @@ export default function Home() {
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <Image
+                      <img
                         src="./assets/images/project-6.png"
                         alt="metaspark"
                         loading="lazy"
@@ -525,7 +524,7 @@ export default function Home() {
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <Image
+                      <img
                         src="./assets/images/project-7.png"
                         alt="summary"
                         loading="lazy"
@@ -545,7 +544,7 @@ export default function Home() {
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <Image
+                      <img
                         src="./assets/images/project-8.jpg"
                         alt="task manager"
                         loading="lazy"
