@@ -15,6 +15,7 @@ export default function Home() {
                 src="./assets/images/Flake.jpg"
                 alt="Nicolas Flake"
                 style={{ borderRadius: "15px" }}
+                width={80}
               />
             </figure>
             <div className="info-content">
@@ -144,10 +145,10 @@ export default function Home() {
                     />
                   </div>
                   <div className="service-content-box">
-                    <h4 className="h4 service-item-title">Web design</h4>
+                    <h4 className="h4 service-item-title">Data Science & AI</h4>
                     <p className="service-item-text">
-                      The most modern and high-quality design made at a
-                      professional level.
+                      Crafting predictive models and performing exploratory data
+                      analysis to identify trends.
                     </p>
                   </div>
                 </li>
@@ -161,10 +162,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="service-content-box">
-                    <h4 className="h4 service-item-title">Web development</h4>
+                    <h4 className="h4 service-item-title">
+                      Vehicle Dynamics
+                    </h4>
                     <p className="service-item-text">
-                      High-quality development of sites at the professional
-                      level.
+                    Analyzing and optimizing vehicle performance and behavior through the study of forces and motion.
                     </p>
                   </div>
                 </li>
@@ -178,10 +180,12 @@ export default function Home() {
                     />
                   </div>
                   <div className="service-content-box">
-                    <h4 className="h4 service-item-title">Mobile apps</h4>
+                    <h4 className="h4 service-item-title">
+                      Software Development
+                    </h4>
                     <p className="service-item-text">
-                      Professional development of applications for iOS and
-                      Android.
+                      Expertise in Python, Docker and Kubernetes for app
+                      deployment and data operations.
                     </p>
                   </div>
                 </li>
@@ -195,10 +199,12 @@ export default function Home() {
                     />
                   </div>
                   <div className="service-content-box">
-                    <h4 className="h4 service-item-title">Photography</h4>
+                    <h4 className="h4 service-item-title">
+                      Project Management
+                    </h4>
                     <p className="service-item-text">
-                      I make high-quality photos of any category at a
-                      professional level.
+                      Proficient in business process modeling, technical
+                      documentation, and agile methodologies.
                     </p>
                   </div>
                 </li>
