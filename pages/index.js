@@ -11,10 +11,11 @@ export default function Home() {
         <aside className="sidebar" data-sidebar="">
           <div className="sidebar-info">
             <figure className="avatar-box">
-              <img
+              <Image
                 src="./assets/images/my-avatar.png"
                 alt="Nicolas Flake"
                 width={80}
+                height={140}
               />
             </figure>
             <div className="info-content">
@@ -135,11 +136,12 @@ export default function Home() {
               <ul className="service-list">
                 <li className="service-item">
                   <div className="service-icon-box">
-                    <img
+                    <Image
                       src="./assets/images/icon-design.svg
           "
                       alt="design icon"
                       width={40}
+                      height={40}
                     />
                   </div>
                   <div className="service-content-box">
@@ -152,10 +154,11 @@ export default function Home() {
                 </li>
                 <li className="service-item">
                   <div className="service-icon-box">
-                    <img
+                    <Image
                       src="./assets/images/icon-dev.svg"
                       alt="Web development icon"
                       width={40}
+                      height={40}
                     />
                   </div>
                   <div className="service-content-box">
@@ -168,10 +171,11 @@ export default function Home() {
                 </li>
                 <li className="service-item">
                   <div className="service-icon-box">
-                    <img
+                    <Image
                       src="./assets/images/icon-app.svg"
                       alt="mobile app icon"
                       width={40}
+                      height={40}
                     />
                   </div>
                   <div className="service-content-box">
@@ -184,10 +188,11 @@ export default function Home() {
                 </li>
                 <li className="service-item">
                   <div className="service-icon-box">
-                    <img
+                    <Image
                       src="./assets/images/icon-photo.svg"
                       alt="camera icon"
                       width={40}
+                      height={40}
                     />
                   </div>
                   <div className="service-content-box">
@@ -396,14 +401,16 @@ export default function Home() {
                   data-category="web development"
                 >
                   <a href="#">
-                    <figure className="project-img">
+                    <figure className="project-Image">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <img
+                      <Image
                         src="./assets/images/project-1.jpg"
                         alt="finance"
                         loading="lazy"
+                        width={40}
+                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">Finance</h3>
@@ -416,14 +423,16 @@ export default function Home() {
                   data-category="web development"
                 >
                   <a href="#">
-                    <figure className="project-img">
+                    <figure className="project-Image">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <img
+                      <Image
                         src="./assets/images/project-2.png"
                         alt="orizon"
                         loading="lazy"
+                        width={40}
+                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">Orizon</h3>
@@ -436,14 +445,16 @@ export default function Home() {
                   data-category="web design"
                 >
                   <a href="#">
-                    <figure className="project-img">
+                    <figure className="project-Image">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <img
+                      <Image
                         src="./assets/images/project-3.jpg"
                         alt="fundo"
                         loading="lazy"
+                        width={40}
+                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">Fundo</h3>
@@ -456,14 +467,16 @@ export default function Home() {
                   data-category="applications"
                 >
                   <a href="#">
-                    <figure className="project-img">
+                    <figure className="project-Image">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <img
+                      <Image
                         src="./assets/images/project-4.png"
                         alt="brawlhalla"
                         loading="lazy"
+                        width={40}
+                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">Brawlhalla</h3>
@@ -476,14 +489,16 @@ export default function Home() {
                   data-category="web design"
                 >
                   <a href="#">
-                    <figure className="project-img">
+                    <figure className="project-Image">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <img
+                      <Image
                         src="./assets/images/project-5.png"
                         alt="dsm."
                         loading="lazy"
+                        width={40}
+                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">DSM.</h3>
@@ -496,14 +511,16 @@ export default function Home() {
                   data-category="web design"
                 >
                   <a href="#">
-                    <figure className="project-img">
+                    <figure className="project-Image">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <img
+                      <Image
                         src="./assets/images/project-6.png"
                         alt="metaspark"
                         loading="lazy"
+                        width={40}
+                        height={40}
                       />
                     </figure>
                     <h3 className="project-title">MetaSpark</h3>
@@ -516,14 +533,16 @@ export default function Home() {
                   data-category="web development"
                 >
                   <a href="#">
-                    <figure className="project-img">
+                    <figure className="project-Image">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <img
+                      <Image
                         src="./assets/images/project-7.png"
                         alt="summary"
                         loading="lazy"
+                        width={250}
+                        height={200}
                       />
                     </figure>
                     <h3 className="project-title">Summary</h3>
@@ -536,14 +555,16 @@ export default function Home() {
                   data-category="applications"
                 >
                   <a href="#">
-                    <figure className="project-img">
+                    <figure className="project-Image">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <img
+                      <Image
                         src="./assets/images/project-8.jpg"
                         alt="task manager"
                         loading="lazy"
+                        width={250}
+                        height={200}
                       />
                     </figure>
                     <h3 className="project-title">Task Manager</h3>
@@ -556,14 +577,16 @@ export default function Home() {
                   data-category="web development"
                 >
                   <a href="#">
-                    <figure className="project-img">
+                    <figure className="project-Image">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
                       </div>
-                      <img
+                      <Image
                         src="./assets/images/project-9.png"
                         alt="arrival"
                         loading="lazy"
+                        width={250}
+                        height={200}
                       />
                     </figure>
                     <h3 className="project-title">Arrival</h3>
